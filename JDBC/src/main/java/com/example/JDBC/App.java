@@ -19,6 +19,8 @@ public class App {
 	// useful to insert alot of data
 	PreparedStatement preStatement = null;
 
+
+int num=0;
 	App() {// this is a checked exception
 		try {
 
@@ -31,6 +33,10 @@ public class App {
 			e.printStackTrace();
 			System.out.println(e.getMessage());
 		}
+
+
+
+		
 	}
 
 	void fetchAllData() throws Exception {
